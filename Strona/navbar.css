@@ -8,7 +8,7 @@ header{
     background: #0b315c;
     padding: 20px;
     width: 100%;
-    height:30px;
+    height:1.875rem;
 }
 .left_area h3{
     color:#fff;
@@ -25,8 +25,8 @@ header{
     background: #0f47fc;
     text-decoration: none;
     float: right;
-    margin-top: -30px;
-    margin-right:40px;
+    margin-top: -1.875rem;
+    margin-right:42.5rem;
     border-radius: 2px;
     font-size:15px;
     font-weight: 600;
@@ -39,33 +39,33 @@ header{
 }
 .sidebar{
     background: #031652;
-    margin-top: 70px;
-    padding-top: 30px;
+    margin-top: 4.375rem;
+    padding-top: 1.875rem;
     position: fixed;
     left:0;
-    width:250px;
+    width:15.625rem;
     height:100%;
     transition: 0.5s;
     transition-property:left;
 }
 .sidebar .Profile_image{
-    width:100px;
-    height:100px;
+    width:6.25rem;
+    height:6.25rem;
     border-radius:100px;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     margin-left:30%;
 }
 .sidebar h4{
     color:#ccc;
     margin-top:0;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
     text-align: center;
 }
 .sidebar a{
     color: #fff;
     display: block;
     width: 100%;
-    line-height:60px;
+    line-height:3.75rem;
     text-decoration: none;
     padding-left:40px;
     box-sizing: border-box;
@@ -83,7 +83,7 @@ label #sidebar_btn{
     position: fixed;
     color: #fff;
     cursor: pointer;
-    left: 170px;
+    left: 10.625rem;
     font-size: 20px;
     margin:5px 0;
     transition: 0.5s;
@@ -93,14 +93,14 @@ label #sidebar_btn:hover{
     color:#3a63e0;
 }
 #check:checked ~ .sidebar{
-    left: -190px;
+    left: -11.875rem;
 }
 #check:checked ~ .sidebar a span{
     display: none;
 }
 #check:checked ~ .sidebar a{
     font-size: 20px;
-    margin-left:170px;
+    margin-left:10.625rem;
     width:80px;
 }
 .content{
@@ -112,7 +112,7 @@ label #sidebar_btn:hover{
     transition: 0.5s;
 }
 #check:checked ~ .content{
-    margin-left:60px;
+    margin-left:3.75rem;
 }
 #check{
     display: none;
